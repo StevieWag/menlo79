@@ -25,7 +25,19 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/app/js/jquery.1.11.1.js",
+              "./src/app/js/bootstrap.js",
+              "./src/app/js/SmoothScroll.js",
+              "./src/app/js/jquery.counterup.js",
+              "./src/app/js/waypoints.js",
+              "./src/app/js/nivo-lightbox.js",
+              "./src/app/js/jquery.isotope.js",
+              "./src/app/js/jqBootstrapValidation.js",
+              "./src/app/js/contact_me.js",
+              "./src/app/js/owl.carousel.js",
+              "./src/app/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
