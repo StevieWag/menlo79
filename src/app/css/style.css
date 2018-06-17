@@ -222,7 +222,7 @@ header .intro-text {
 	width: 100px;
 	height: 100px;
 	padding: 30px 0;
-	background: #C54DAA;
+	background: rgba(27,113,214,0.7);
 	border-radius: 50%;
 }
 /* Portfolio Section */
@@ -354,8 +354,43 @@ ol.type li a:hover {
 	color: #E87E04;
 }
 /* Achivements Section */
+#quotes {
+	background: url(../../assets/img/smartphone.jpg) no-repeat center bottom fixed;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+#quotes .overlay {
+	padding: 120px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c54daa+0,1b71d6+100&0.6+0,0.6+100 */
+	background: -moz-linear-gradient(left, rgba(27,113,214,0.6) 0%, rgba(29,233,182,0.6) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(27,113,214,0.6) 0%, rgba(29,233,182,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(27,113,214,0.6) 0%, rgba(29,233,182,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99c54daa', endColorstr='#991b71d6', GradientType=1 ); /* IE6-9 */
+}
+#quotes h2 {
+	color: #fff;
+}
+.quotes-box h4 {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 5px;
+	text-transform: uppercase;
+}
+.quotes-box span.count {
+	font-size: 52px;
+	font-weight: 600;
+	display: block;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+/* Achivements Section */
 #achievements {
-	background: url(../../assets/img/achievements.jpg) no-repeat center bottom fixed;
+	background: url(../../assets/img/office.jpg) no-repeat center bottom fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
