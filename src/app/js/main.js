@@ -23,8 +23,10 @@ function main() {
         var navHeight = $(window).height() - 500;
         if ($(window).scrollTop() > navHeight) {
             $('.navbar-default').addClass('on');
+            $('.page-scroll').addClass('text-on');
         } else {
             $('.navbar-default').removeClass('on');
+            $('.page-scroll').removeClass('text-on');
         }
     });
 
